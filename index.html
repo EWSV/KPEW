@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EverWorld - КП</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Фоновые слои -->
+  <div class="bg bg-1"></div>
+  <div class="bg bg-2"></div>
+  <div class="bg bg-3"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-glow">EverWorld</span>
+      <span class="brand-dot"></span>
+    </div>
+    <nav class="nav">
+      <a href="#tree">Команда Проекта</a>
+      <a href="#about">О проекте</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="gradient-text">Команда проекта EverWorld</h1>
+      <p class="lead">Вечная Анархия...</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#tree">Смотреть структуру</a>
+      </div>
+    </section>
+
+    <section id="tree" class="tree-wrap">
+      <!-- Легенда/подсказка -->
+      <div class="legend">
+        <span class="legend-dot legend-top"></span> верхушка
+        <span class="legend-sep">•</span>
+        <span class="legend-dot legend-mid"></span> ядро
+        <span class="legend-sep">•</span>
+        <span class="legend-dot legend-low"></span> модерация
+      </div>
+
+      <!-- Дерево ролей -->
+      <div class="tree">
+
+        <!-- Уровень 1 -->
+        <div class="level">
+          <div class="node big neon anim-pop">
+            <div class="role">Админ</div>
+            <div class="name">ANONIMCHK (fullprime)</div>
+          </div>
+        </div>
+
+        <!-- Уровень 2 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node big neon anim-pop">
+            <div class="role">Тех. Админ</div>
+            <div class="name">MisterBylka</div>
+          </div>
+        </div>
+
+        <!-- Уровень 3 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node mid anim-rise">
+            <div class="role">Гл. Куратор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 4 — два куратора -->
+        <div class="level multi">
+          <div class="connector"></div>
+          <div class="row">
+            <div class="node mid anim-rise">
+              <div class="role">Куратор Медиа</div>
+            </div>
+            <div class="node mid anim-rise">
+              <div class="role">Куратор КП</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Уровень 5 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node mid anim-rise">
+            <div class="role">Старший Администратор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 6 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node mid anim-rise">
+            <div class="role">Администратор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 7 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node mid anim-rise">
+            <div class="role">Младший Админ</div>
+          </div>
+        </div>
+
+        <!-- Уровень 8 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node low anim-rise">
+            <div class="role">Ст. Модератор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 9 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node low anim-rise">
+            <div class="role">Модератор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 10 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node low anim-rise">
+            <div class="role">Мл. Модератор</div>
+          </div>
+        </div>
+
+        <!-- Уровень 11 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node low anim-rise">
+            <div class="role">Ст. Хелпер</div>
+          </div>
+        </div>
+        <!-- Уровень 12 -->
+        <div class="level">
+          <div class="connector"></div>
+          <div class="node low anim-rise">
+            <div class="role">Хелпер</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>О проекте</h2>
+      <p>EverWorld - Вечная Анархия</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
