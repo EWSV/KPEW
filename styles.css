@@ -278,11 +278,13 @@
   }
   
   .role {
+    text-align: center;
     font-weight: 800;
     letter-spacing: .2px;
   }
   
   .name {
+    text-align: center;
     margin-top: 4px;
     font-weight: 600;
     color: rgba(232,238,255,.9);
@@ -354,3 +356,4 @@
   }
 
   
+
